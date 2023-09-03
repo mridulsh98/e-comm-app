@@ -1,0 +1,31 @@
+.search-bar{
+    width: 25%;
+    padding-right: 25px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+
+    .search-icon{
+        fill: white;
+        display: flex;
+        align-items: end;
+        padding-right: 5px;
+    }
+
+    .MuiFormControl-root{
+        .MuiInput-underline::before{
+            border-bottom-color: white;
+        }
+        .MuiInputBase-root{ 
+            color: white;
+            //styleName: H3/16/Medium;
+            font-family: 'Lato';
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.home-button-wrapper{
+    width: 12%;
+    margin-left: 64px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+
+    .name{
+        font-family: 'Lato';
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-left: 8px;
+
+    }
+}
